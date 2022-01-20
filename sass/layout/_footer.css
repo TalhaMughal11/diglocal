@@ -1,0 +1,49 @@
+.footer {
+  height: 20rem;
+}
+
+.footer__class1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.footer__class1-icon {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__class1-store {
+  width: 39rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__class1-logo {
+  width: 20rem;
+  display: flex;
+  justify-content: end;
+}
+
+.footer__class2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem 6rem 1rem 6rem;
+  align-items: center;
+}
+
+.footer__class2-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 400;
+  list-style: none;
+  width: 70rem;
+}
+
+.footer__class2-list-items {
+  text-decoration: none;
+  color: black;
+}

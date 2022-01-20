@@ -1,0 +1,39 @@
+.navigation {
+  padding: 2rem 10rem;
+}
+
+.navigation__container {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100rem;
+  font-size: 16px;
+}
+
+.navigation__list-link {
+  color: #525252;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navigation__list-search {
+  border-radius: 60px;
+  height: 4rem;
+  width: 20rem;
+  background-color: rgba(230, 227, 227, 0.315);
+  color: #1B1C20;
+  border: none;
+  padding: 1rem;
+}
+
+.navigation__photo {
+  margin-left: 5rem;
+}

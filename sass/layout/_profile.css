@@ -1,0 +1,158 @@
+.profile {
+  height: 88rem;
+  position: relative;
+  background: #CCDCDD;
+}
+
+.profile__images__bg-img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.profile__images__img {
+  position: absolute;
+  top: 262px;
+  left: 41%;
+}
+
+.profile__images__barcode {
+  position: absolute;
+  top: 320px;
+  left: 60%;
+  border: 10px solid #fff;
+}
+
+.profile__heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__heading__main {
+  display: flex;
+  align-items: center;
+  margin-left: 92px;
+}
+
+.profile__heading__main-1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.profile__heading__main-icon {
+  width: 14px;
+  height: 16px;
+  color: #017375;
+  margin-left: 20px;
+}
+
+.profile__heading__main-2 {
+  font-size: 16px;
+  color: #017375;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.profile__heading__sub {
+  opacity: .5;
+}
+
+.profile__heading__sub-1 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__content-des {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #1B1C20;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profile__content-heading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #8AAE3F;
+  margin-top: 20px;
+}
+
+.profile__content-icons {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.profile__content-icons-1 {
+  color: #55ACEE;
+  width: 31px;
+  height: 25px;
+}
+
+.profile__content-icons-2 {
+  color: #3B5998;
+  width: 14px;
+  height: 32px;
+}
+
+.profile__content-icons-3 {
+  width: 25px;
+  height: 25px;
+}
+
+.profile__link {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__link__list {
+  width: 360px;
+  height: 70px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.profile__link__list-item-1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.profile__link__list-item-2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile__link__list-item-3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile__link__list-a1 {
+  text-decoration: none;
+  color: #000000;
+}
+
+.profile__link__list-a2 {
+  text-decoration: none;
+  color: #000000;
+}
+
+.profile__link__list-a3 {
+  text-decoration: none;
+  color: #000000;
+}
