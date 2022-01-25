@@ -1,27 +1,29 @@
 .profile{
     // border: 2px solid black;
-    height: 88rem;
+    // height: 88rem;
     position: relative;
     background: #CCDCDD;
 
     &__images{
         
         &__bg-img{
-            height: 100%;
             width: 100%;
             margin-bottom: 100px;
+            height: 500px;
         }
 
         &__img{
             position: absolute;
-            top: 262px;
-            left: 41%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-65%);
         }
 
         &__barcode{
             position: absolute;
-            top: 320px;
-            left: 60%;
+            top: 50%;
+            left: 50%;
+            transform: translate(160%, -60%);
             border: 10px solid #fff;
         }
     }

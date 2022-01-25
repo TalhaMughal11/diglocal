@@ -10,6 +10,121 @@ html{
     font-size: 62.5%;
 }
 
+@media(max-width:600px){
+    html{
+        font-size: 37.5%;
+    }
+   
+    .navigation__container{
+        display: flex;
+    }
+
+    .navigation__logo{
+        margin: 1rem;
+    }
+
+    .profile__images{
+        
+        &__bg-img{
+            width: 100%;
+            object-fit: fill;
+            margin-bottom: 100px;
+            height: 300px!important;
+        }
+
+        &__img{
+           width: 120px;
+           height: 120px;
+           object-fit: cover;
+           transform: translate(-50%,-150%) !important;
+        }
+
+        &__barcode{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(150%, -200%) !important;
+            border: 10px solid #fff;
+            width: 70px;
+            height: 70px;
+            object-fit: fill;
+        }
+    }
+
+    .navigation__list{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .navigation__photo{
+        margin: 1rem;
+    }
+
+
+    .footer__class1{
+        display: flex;
+        align-items: center;
+        margin-top: 4rem;
+        flex-direction: column-reverse;
+    
+    }
+
+    .footer__class1-icon{
+
+        width: 35rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    .footer__class1-store{
+        margin-top: 1rem;
+    }
+
+    .footer__class1-logo{
+        margin-right: 12%;
+        
+    }
+
+    .footer__class2{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 0 1rem 0;
+
+    }
+
+    .footer__class2-list{
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        font-weight: 400;
+        list-style: none;
+        width: 70rem;
+    }
+}
+
+@media (max-width:900px){
+    html{
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width:1200){
+    html{
+        font-size: 75%;
+    }
+}
+
+@media (min-width:1800px){
+    html{
+        font-size: 112.5%;
+    }
+}
+
 body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
